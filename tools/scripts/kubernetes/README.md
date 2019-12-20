@@ -3,7 +3,7 @@
 # Prerequistes
 Kubenetes CLI credentials are required
 
-# Retrieve alert uyaml based on namespace, rule and subrule
+# Retrieve alert yaml based on namespace, rule and subrule
 ./get_alert.py -h
 
 usage: get_alert.py [-h] [-d] -n NAMESPACE -r RULE -s SUBRULE

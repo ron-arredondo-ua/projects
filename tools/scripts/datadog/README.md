@@ -16,7 +16,7 @@ optional arguments:
   -d, --debug
   -v, --verbose
 
-example: ./get_monitors.py --apikey ><api key value> --appkey <app key value>
+example: ./get_monitors.py --apikey [api key] --appkey [app key]
 
 # Retrive datadog metrics
 ./get_dd_metrics.py -h
@@ -34,5 +34,5 @@ optional arguments:
   -o OFILE, --output-file OFILE
   -v, --verbose
 
-example: ./get_dd_metrics.py --apikey ><api key value> --appkey <app key value> -h 1 -f "http"
+example: ./get_dd_metrics.py --apikey [api key] --appkey [app key] -h 1 -f "http"
   (search for "http" metrics within the last hour)

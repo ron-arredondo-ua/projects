@@ -1,10 +1,9 @@
-This is the readme file for Datadog scripts:
+# Readme file for Datadog scripts:
 
 # Prerequistes:
 Dataddog API and APP keys are required for using this script
 
 # Retrieve all datadog monitors
-
 ./get_monitors.py -h
 
 usage: get_monitors.py [-h] [--apikey APIKEY] [--appkey APPKEY] [-d]
@@ -17,10 +16,9 @@ optional arguments:
   -d, --debug
   -v, --verbose
 
-example: ./get_monitors.py --apikey ><aip key value> --applkey <app key value>
+example: ./get_monitors.py --apikey ><api key value> --appkey <app key value>
 
 # Retrive datadog metrics
-
 ./get_dd_metrics.py -h
 
 usage: get_dd_metrics.py [-h] [--apikey APIKEY] [--appkey APPKEY] [-d]
@@ -36,4 +34,5 @@ optional arguments:
   -o OFILE, --output-file OFILE
   -v, --verbose
 
-example: ./get_dd_metrics.py --apikey ><aip key value> --applkey <app key value> -h 1 -f "http"
+example: ./get_dd_metrics.py --apikey ><api key value> --appkey <app key value> -h 1 -f "http"
+  (search for "http" metrics within the last hour)

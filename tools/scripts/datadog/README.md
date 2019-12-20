@@ -2,7 +2,8 @@ This is the readme file for Datadog scripts:
 
 # Prerequistes:
 #
-# Dataddog API and APP keys are required for usin gthis script
+# Dataddog API and APP keys are required for using this script
+#
 
 # Retrieve all datadog monitors
 

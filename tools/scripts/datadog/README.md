@@ -1,4 +1,4 @@
-# Readme file for Datadog scripts:
+# Readme file for Datadog scripts
 
 # Prerequistes:
 Dataddog API and APP keys are required for using this script

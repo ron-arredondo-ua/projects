@@ -1,8 +1,11 @@
-This is the readme file for kubernetes tool scripts:
+# Readme for kubernetes tool scripts
 
-// Retrieve one alert yaml based on namespace, rule and subrule
+# Prerequistes
+Kubenetes CLI credentials are required
 
+# Retrieve alert uyaml based on namespace, rule and subrule
 ./get_alert.py -h
+
 usage: get_alert.py [-h] [-d] -n NAMESPACE -r RULE -s SUBRULE
 
 optional arguments:
@@ -12,9 +15,12 @@ optional arguments:
   -r RULE, --rule RULE
   -s SUBRULE, --subrule SUBRULE
 
-// Retrieve all alerts based on namespace and rule
+example: ./get_alert.py -r prometheusrule -s elasticsearch-exporter-alerter.rules.yaml -n monitoring
 
+
+# Retrieve a summary of all alerts based on namespace and rule
 ./get_all_alerts.py -h
+
 usage: get_all_alerts.py [-h] [-d] [--dryrun] -n NAMESPACE -r RULE [-v]
 
 optional arguments:
@@ -25,3 +31,4 @@ optional arguments:
   -r RULE, --rule RULE
   -v, --verbose
 
+example: ./get_all_alerts.py -r prometheusrule -n monitoring

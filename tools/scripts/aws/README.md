@@ -1,7 +1,8 @@
+AWS Python tools
 
-Infra-3496
+Python scripts used for developing and testing Infra-3496
 
-1. Created Route53 CNAME record 'mapmy-2-internal.api.ua.com' under ua.com hosted zone
-2. Created Route53 Alias record for load balancer 
+1. get_ec2_eip.py: returns private and public IP addresses for all network interfaces
+2. get_route53_info.py: returns all record sets for current AWS user
 
 
